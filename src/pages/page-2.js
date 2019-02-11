@@ -12,9 +12,10 @@ const SecondPage = () => (
     <Video
       cloudName="big-tent"
       publicId="Michael/e-safety"
-      style={{ maxWidth: `700px`, marginBottom: `1.45rem` }}
+      style={{ maxWidth: `100%`, marginBottom: `1.45rem` }}
       controls
     />
+    <h3>You shouldn't give your personal information away.</h3>
     <Link to="/" style={{ display: `block` }}>
       <h4>Go to the front page</h4>
     </Link>
