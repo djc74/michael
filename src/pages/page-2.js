@@ -1,13 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Video, Transformation } from "cloudinary-react"
+import { Video } from "cloudinary-react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="E-safety" />
     <h1>Welcome to our E-safety project</h1>
     <Video
       cloudName="big-tent"
